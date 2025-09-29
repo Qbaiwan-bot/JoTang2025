@@ -50,4 +50,18 @@
 #### 废掉WSLg!
 >+ 改wslconfig文件
 >+ 重启wsl
-#### 
+#### GNOME启动
+>+ 安装xrdp(下载半天)
+>+ 更改WSL Ubuntu远程桌面端口号
+>+ 编辑.xsession配置文件
+>+ 重启xrdp
+>+ sudo service xrdp start
+>+ 进入，然后输入密码  
+?  
+![??](WSL&虚拟机尝试pic\wrong.png)  
+
+去检查发现一定要win11专业版  
+*天塌了*
+#### 事已至此，回调wslg
+（怪我没有仔细检查远程桌面支持TAT）  
+# 终
